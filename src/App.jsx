@@ -3,6 +3,7 @@ import ButtonGradient from "./assets/svg/ButtonGradient";
 // import Collaboration from "./components/Collaboration";
 // import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 // import Hero from "./components/Hero";
 // import Pricing from "./components/Pricing";
 // import Roadmap from "./components/Roadmap";
@@ -13,6 +14,7 @@ const App = () => {
         <>
             <div className="pt-16 lg:pt-20 overflow-hidden">
                 <Header />
+                <Hero />
             </div>
             <ButtonGradient />
         </>
