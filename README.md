@@ -1,18 +1,109 @@
-# React + Vite
+# Brainwave
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+[![React](https://img.shields.io/badge/React-19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES_Modules-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Brainwave is a modern, responsive landing page for an AI chat platform. It combines a futuristic visual direction with smooth parallax effects, product showcases, integrations, pricing and a roadmap — all wrapped in a polished single-page experience.
 
-## React Compiler
+## Tech Highlights
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+- **Frontend:** React 19 with reusable, component-based sections
+- **Build tooling:** Vite 8 with fast development and optimized production builds
+- **Styling:** Tailwind CSS 4, custom theme tokens and responsive utilities
+- **Motion:** Scroll-based parallax effects powered by React Just Parallax
+- **Navigation:** React Router DOM with anchor-based page sections
+- **Quality:** ESLint, Prettier and React Compiler support
+- **Design:** Custom SVG decorations, gradients, cards and responsive layouts
 
-## Expanding the ESLint configuration
+## What You Can Explore
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+- Discover the AI chat product through an animated hero section.
+- Browse feature cards focused on smarter and faster AI-assisted work.
+- Explore collaboration integrations presented in an interactive visual layout.
+- Preview AI use cases including photo editing and video generation.
+- Compare product plans in a dedicated pricing section.
+- Follow planned features and their progress on the product roadmap.
+- Use the complete experience across desktop, tablet and mobile screens.
+
+## Tech Stack
+
+---
+
+| Area | Technology |
+| --- | --- |
+| UI | React 19 |
+| Styling | Tailwind CSS 4 |
+| Bundler | Vite 8 |
+| Routing | React Router DOM 7 |
+| Effects | React Just Parallax, Scroll Lock |
+| Code quality | ESLint, Prettier |
+
+## Getting Started
+
+---
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) 20.19+ or 22.12+
+- npm
+
+### Installation
+
+```bash
+git clone git@github.com:PrzemekAbramowicz/Brainwave.git
+cd Brainwave
+npm install
+npm run dev
+```
+
+The development server will print the local address in the terminal — by default, it is `http://localhost:5173`.
+
+## Available Scripts
+
+---
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the Vite development server |
+| `npm run build` | Create an optimized production build |
+| `npm run lint` | Check the codebase with ESLint |
+| `npm run preview` | Preview the production build locally |
+
+## Project Structure
+
+---
+
+```text
+Brainwave/
+├── public/               # Public icons and favicon
+├── src/
+│   ├── assets/           # Images, icons and SVG components
+│   ├── components/       # Page sections and reusable UI components
+│   │   └── design/       # Decorative section-specific elements
+│   ├── constants/        # Navigation, features, pricing and roadmap data
+│   ├── App.jsx           # Main page composition
+│   ├── index.css         # Tailwind theme and global styles
+│   └── main.jsx          # Application entry point
+├── package.json
+└── vite.config.js
+```
+
+## Status
+
+---
+
+Brainwave is currently a frontend presentation project. The AI interactions and product actions shown in the interface are visual concepts and are not connected to an AI service or backend.
+
+## License
+
+---
+
+This repository does not currently include a license.
